@@ -257,3 +257,16 @@ private void processWithin10s(RemoteMessage message) {
 关于 `intent`, 必须为显示`intent`(赋予uri), 通过intent跳转自定义页面可通过`intent.data`或者`intent.extras`获取
 
 该部分需要服务端传参定义intent属性,服务端具体可看 [服务端开发](https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides-V5/android-server-dev-0000001050040110-V5)
+
+
+### Oppo Push Service
+
+[官方文档](https://push.oppo.com/)
+
+### Vivo Push Service
+
+[官方文档](https://dev.vivo.com.cn/openAbility/pushNews)
+
+### Meizu
+
+[官方文档](https://dev.vivo.com.cn/openAbility/pushNews)
