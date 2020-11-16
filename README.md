@@ -26,7 +26,7 @@
 
 * 自定义广播接收器 (用于接收消息回调, 方法运行于非主线程， 注意混淆规则)
 
-```
+``` java
 public class DemoMessageReceiver extends PushMessageReceiver {
     private String mRegId;
     private long mResultCode = -1;
@@ -148,7 +148,7 @@ Token会在包括但不限于下述场景中发生变化
 代码
 
 启动注册服务
-```
+``` java
 private void getToken() {
     new Thread() {
         @Override
@@ -191,7 +191,7 @@ private void refreshedTokenToServer(String token) {
 
 透传消息回调
 
-```
+``` java
 @Override
 public void onMessageReceived(RemoteMessage message) {
     Log.i(TAG, "onMessageReceived is called");
